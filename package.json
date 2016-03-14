@@ -1,0 +1,19 @@
+{
+  "name": "node_srqc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOne1006/node_shenRuQianChu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOne1006/node_shenRuQianChu/issues"
+  },
+  "homepage": "https://github.com/TheOne1006/node_shenRuQianChu#readme"
+}
