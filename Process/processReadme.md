@@ -38,6 +38,13 @@
 2. 取决于环境变量中的 `NODE_UNIQUE_NO`
 
 
+## cluster api
+
+1. `cluster.schedulingPolicy`: 调度策略
+  - 轮流制: `cluster.SCHED_RR` value: '2'
+  - 系统处理: `cluster.SCHED_NONE` value : '1'
+  - 不可更改: 全局设定一点派一个工作进程,或调用 `cluster.setupMaster()` 后变不可更改
+  -
 
 
 
