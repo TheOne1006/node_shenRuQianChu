@@ -16,5 +16,8 @@
 
 ## 父子进程之间的通信
 
-- psObject.send()
+- psObject.send(mes, handler)
 - psObject.on('message')
+
+
+## 自动重启
