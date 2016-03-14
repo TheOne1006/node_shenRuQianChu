@@ -21,3 +21,26 @@
 
 
 ## 自动重启
+
+
+## cluster 集群模块
+
+什么是 __集群__:  
+集群模块允许你方便地创建一个共享服务器端口的进程网络。
+
+原理:  
+- `child_process` + `net` 模块的组合应用.  
+- `cluster` 启动时,内部启动 tcp 服务器,在 `cluster.fork()` 子进程是,将这个 TCP 服务器 socket 文件发送给工作进程.
+
+
+判断主进程/工作进程:  
+1. `cluster.isWorker` / `cluster.isMaster`
+2. 取决于环境变量中的 `NODE_UNIQUE_NO`
+
+
+
+
+
+
+
+##
