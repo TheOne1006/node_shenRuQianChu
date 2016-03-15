@@ -7,6 +7,7 @@ var server = http.createServer(function (req, res) {
 process.on('message', function (m, tcp) {
   if(m === 'server') {
     tcp.on('connection', function (socket) {
+      // server 触发 emit
       server.emit('connection', socket);
     });
   }
