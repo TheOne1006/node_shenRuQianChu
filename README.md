@@ -14,3 +14,7 @@
 ## NET 网络编程
 
 - TCP
+
+## Error 报错处理
+
+- Event: `uncaughtException`
