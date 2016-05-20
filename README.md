@@ -18,3 +18,8 @@
 ## Error 报错处理
 
 - Event: `uncaughtException`
+
+
+## bcrypt
+
+bcrypt是一个密码散列函数由尼尔斯Provos和大卫Mazières设计.
